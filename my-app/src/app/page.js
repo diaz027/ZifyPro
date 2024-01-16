@@ -4,6 +4,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
+      <br />
       <div>
         <h2>
           En ZifyPro nos especializamos en la creación y optimización de páginas
