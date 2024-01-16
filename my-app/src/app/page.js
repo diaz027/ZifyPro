@@ -1,4 +1,6 @@
+import React from "react";
 import NavBar from "@/componentes/NavBar/NavBar";
+import { Button } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
           necesidades y contribuyan al éxito de su presencia en línea
         </h2>
       </div>
+      <Button color="primary">Button</Button>
     </>
   );
 }
