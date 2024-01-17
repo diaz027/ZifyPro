@@ -1,5 +1,6 @@
 import React from "react";
-import { Navbar, NavbarItem, Link } from "@nextui-org/react";
+import { Navbar, NavbarItem } from "@nextui-org/react";
+import Link from "next/link";
 
 export default function NavBarDesktop() {
   return (
@@ -10,15 +11,19 @@ export default function NavBarDesktop() {
         </Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href={"/proyectos"}>
+        <Link href={"/Proyectos"}>
           <h2>Proyecto</h2>
         </Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href={"/about"}>About</Link>
+        <Link href={"/about"}>
+          <h2>About</h2>
+        </Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href={"/contacto"}>Contacto</Link>
+        <Link href={"/contacto"}>
+          <h2>Contacto</h2>
+        </Link>
       </NavbarItem>
     </Navbar>
   );

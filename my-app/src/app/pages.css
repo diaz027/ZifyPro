@@ -1,0 +1,32 @@
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+        background-image: url("https://res.cloudinary.com/divxrmzge/image/upload/v1704054030/2136798_cfqrz3.jpg");
+        background-size: cover;
+        font-size: 1.5em;
+  }
+
+  .text{
+    margin-top: 60px;
+    overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
+  word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
+  max-width: 500px;
+  margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+      background-image: url("https://res.cloudinary.com/divxrmzge/image/upload/v1704054030/2136798_cfqrz3.jpg");
+      font-family: 'Rajdhani', sans-serif;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1em;
+      color: white;
+    }
+}
