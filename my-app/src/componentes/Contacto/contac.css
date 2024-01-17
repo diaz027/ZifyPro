@@ -1,0 +1,14 @@
+ @media screen and (min-width: 768px) {
+    .email-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center; /* Centra verticalmente los elementos */
+        height: 470px;
+        margin-left: 500px; /* Agrega un espacio a la derecha para separar los elementos del borde */
+        color: white;
+      }
+
+    .input-container {
+      width: 400px; /* Ajusta el ancho del contenedor de entrada para pantallas más grandes */
+    }
+  }
