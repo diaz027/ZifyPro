@@ -1,43 +1,25 @@
 import React from "react";
-import {
-  Navbar,
-  NavbarBrand,
-  NavbarContent,
-  NavbarItem,
-  Link,
-  Button,
-} from "@nextui-org/react";
+import { Navbar, NavbarItem, Link } from "@nextui-org/react";
 
 export default function NavBarDesktop() {
   return (
     <Navbar shouldHideOnScroll>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
+      <NavbarItem>
+        <Link color="primary" href="/">
+          Profile
+        </Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link href={"/proyectos"}>
+          <h2>Proyecto</h2>
+        </Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link href={"/about"}>About</Link>
+      </NavbarItem>
+      <NavbarItem>
+        <Link href={"/contacto"}>Contacto</Link>
+      </NavbarItem>
     </Navbar>
   );
 }
