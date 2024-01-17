@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    .conteinerT {
+        z-index: 53;
+        margin-top: -15px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr); /* Create 4 equal-width columns */
+        grid-gap: 30px;
+        margin-left: 200px;
+    }
+
+    .parrafo {
+        z-index: 53;
+        position: relative;
+        font-size: 2em;
+        margin-left: -300px;
+        bottom: -40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .conteinerT {
+    z-index: 53;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
+    grid-gap: 15px;
+    }
+
+    .parrafo {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+
+}
