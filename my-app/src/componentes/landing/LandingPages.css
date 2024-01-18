@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
 .videoH{
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 0;
 }
@@ -26,11 +26,11 @@
 }
 .grow1 h2 {
   position: absolute;
-  top: 10vh;
+  top: 7vh;
   left: 45%;
   text-wrap: inherit;
   max-width: 620px;
-  max-height: 450px;
+  max-height: 550px;
   overflow: hidden;
   color: rgb(228, 193, 128);
   font-size: 2em;
