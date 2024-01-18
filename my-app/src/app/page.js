@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="container">
       <LandingPages />
-      <Vorttex id="proyecto" />
+      <Vorttex id="proyecto" ></Vorttex>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import "./LandingPages.css";
+import "./LandingPages.scss";
 
 const LandingPages = () => {
   return (
@@ -9,19 +9,39 @@ const LandingPages = () => {
           <img
             className="fixI"
             alt="NextUI hero Image"
-            src="https://res.cloudinary.com/divxrmzge/image/upload/v1705549628/_8ea46786-a71e-4936-bcfb-bb2035970099-PhotoRoom.png-PhotoRoom_mxhlb5.png"
+            src="./logo.png"
           />
         </div>
-        <div class="grow1">
-          <h2>
-            En ZifyPro nos especializamos en la creación y optimización de
-            páginas web para potenciar su diseño y mejorar la comunicación con
-            sus clientes. Si está buscando desarrollar una nueva página web o
-            mejorar la existente, no dude en ponerse en contacto con nosotros.
-            Estamos comprometidos en ofrecer soluciones efectivas que se adapten
-            a sus necesidades y contribuyan al éxito de su presencia en línea.
-          </h2>
-        </div>
+        <ul class="Words">
+  <li class="Words-line">
+    <p>&nbsp;</p>
+    <p> &nbsp;</p>
+  </li>
+  <li class="Words-line">
+    <p>ZifyPro</p>
+    <p>hacemos </p>
+  </li>
+  <li class="Words-line">
+    <p>startup</p>
+    <p>de tus </p>
+  </li>
+  <li class="Words-line">
+    <p>Argentina</p>
+    <p>ideas </p>
+  </li>
+  <li class="Words-line">
+    <p>full stack</p>
+    <p>una </p>
+  </li>
+  <li class="Words-line">
+    <p>developers</p>
+    <p>realidad.</p>
+  </li>
+  <li class="Words-line">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </li>
+</ul>
       </section>
       <div className="text"></div>
       <video className="videoH" muted autoPlay loop>
