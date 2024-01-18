@@ -9,23 +9,23 @@ export default function NavBarDesktop() {
       <NavbarItem>
         <Link color="primary" href="/">
           <div id="container1">
-            <h2>home</h2>
+            <h2 id="inicio">Inicio</h2>
           </div>
         </Link>
       </NavbarItem>
       <NavbarItem>
         <Link href="#proyecto">
-          <h2>Proyecto</h2>
+          <h2 id="proyectos">Proyectos</h2>
         </Link>
       </NavbarItem>
       <NavbarItem>
         <Link href={"/about"}>
-          <h2>About</h2>
+          <h2 id="nosotros">Nosotros</h2>
         </Link>
       </NavbarItem>
       <NavbarItem>
         <Link href={"/contacto"}>
-          <h2>Contacto</h2>
+          <h2 id="trabajemos">Trabajemos</h2>
         </Link>
       </NavbarItem>
     </Navbar>
