@@ -11,7 +11,7 @@ export default function NavBarDesktop() {
         </Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href={"/proyectos"}>
+        <Link href="#proyecto">
           <h2>Proyecto</h2>
         </Link>
       </NavbarItem>

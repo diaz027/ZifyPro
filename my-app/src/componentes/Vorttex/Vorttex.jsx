@@ -20,7 +20,7 @@ const Vorttex = () => {
     return () => clearInterval(timer);
   }, [currentImageIndex]);
   return (
-    <>
+    <div id="proyecto">
       <div className="title3">
         <h2>Vorttex Gaming</h2>
       </div>
@@ -167,7 +167,7 @@ const Vorttex = () => {
           allowFullScreen
         ></iframe>
       </div>
-    </>
+    </div>
   );
 };
 export default Vorttex;
