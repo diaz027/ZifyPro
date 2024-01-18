@@ -4,37 +4,37 @@ import "./LandingPages.scss";
 const LandingPages = () => {
   return (
     <section>
-      <section class="layout">
+      <section className="layout">
         <div>
           {" "}
-          <img className="fixI" alt="NextUI hero Image" src="./logo.png" />
+          <img className="fixI" alt="NextUI" src="./logo.png" />
         </div>
-        <ul class="Words">
-          <li class="Words-line">
+        <ul className="Words">
+          <li className="Words-line">
             <p>&nbsp;</p>
             <p> &nbsp;</p>
           </li>
-          <li class="Words-line">
+          <li className="Words-line">
             <p>ZifyPro</p>
             <p>hacemos </p>
           </li>
-          <li class="Words-line">
+          <li className="Words-line">
             <p>startup</p>
             <p>de tus </p>
           </li>
-          <li class="Words-line">
+          <li className="Words-line">
             <p>Argentina</p>
             <p>ideas </p>
           </li>
-          <li class="Words-line">
+          <li className="Words-line">
             <p>full stack</p>
             <p>una </p>
           </li>
-          <li class="Words-line">
+          <li className="Words-line">
             <p>developers</p>
             <p>realidad.</p>
           </li>
-          <li class="Words-line">
+          <li className="Words-line">
             <p>&nbsp;</p>
             <p>&nbsp;</p>
           </li>
