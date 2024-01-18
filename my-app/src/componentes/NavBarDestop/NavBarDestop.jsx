@@ -7,7 +7,7 @@ export default function NavBarDesktop() {
     <Navbar shouldHideOnScroll>
       <NavbarItem>
         <Link color="primary" href="/">
-          Profile
+          Home
         </Link>
       </NavbarItem>
       <NavbarItem>
