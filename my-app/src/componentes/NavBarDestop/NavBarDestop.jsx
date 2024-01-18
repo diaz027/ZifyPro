@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Navbar, NavbarItem } from "@nextui-org/react";
 import Link from "next/link";
@@ -24,7 +25,7 @@ export default function NavBarDesktop() {
         </Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href={"/contacto"}>
+        <Link href={"#contacto"}>
           <h2 id="trabajemos">Trabajemos</h2>
         </Link>
       </NavbarItem>
