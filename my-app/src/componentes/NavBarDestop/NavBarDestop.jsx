@@ -20,7 +20,7 @@ export default function NavBarDesktop() {
         </Link>
       </NavbarItem>
       <NavbarItem>
-        <Link href={"/about"}>
+        <Link href={"#about"}>
           <h2 id="nosotros">Nosotros</h2>
         </Link>
       </NavbarItem>

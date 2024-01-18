@@ -169,3 +169,44 @@ p {
     transform: translate3d(0, -($clip-height), 0);
   }
 }
+
+@media only screen and (max-width: 600px) {
+
+
+  .fixI{
+    position: absolute;
+    top: -2vh;
+    width: 40vh;
+    left: 5vw;
+    color: aqua;
+    animation: salto-voltereta .5s ease-out forwards;
+  }
+
+  .videoH{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: absolute;
+    top: 35vh;
+    left: -20.5vw;
+  transform: rotateZ(90deg) scale(2.5);
+  margin: 0 0 0;
+    z-index: 0;
+  }
+
+  .Words{
+   
+    transform: scale(2.1) rotateZ(3deg);
+    left: 28vw;
+    top: 35vh;
+    font-size: 20px;
+  }
+  .Words-line {
+    
+    // Loop over the total lines and apply a left offset
+    @for $i from 1 through $total-lines+1 {
+      &:nth-child(#{$i}) {
+        left: .5vh * $i;
+      }
+    }
+  }
+}
