@@ -1,14 +1,16 @@
 import React from "react";
 import { Navbar, NavbarItem } from "@nextui-org/react";
 import Link from "next/link";
-import "./navDesk.css"
+import "./navDesk.css";
 
 export default function NavBarDesktop() {
   return (
     <Navbar className="nabDesk" shouldHideOnScroll>
       <NavbarItem>
         <Link color="primary" href="/">
-          Home
+          <div id="container1">
+            <h2>home</h2>
+          </div>
         </Link>
       </NavbarItem>
       <NavbarItem>
