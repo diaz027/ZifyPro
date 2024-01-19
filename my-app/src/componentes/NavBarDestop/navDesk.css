@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .nabDesk{
     font-family: 'Pacifico', cursive;
-    
+    width: 100vw;
     color: black;
     top: 0px;
     background-color: rgb(233, 163, 2); ;

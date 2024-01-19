@@ -30,3 +30,6 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+body{
+  width: 100vw;
+}
