@@ -1,9 +1,10 @@
 @media screen and (min-width: 768px) {
     .conten{
         color:white;
-        
+        margin-top: 3px;
+        overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
+        word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
+        max-width: 500px;
+        margin-left: 66%;
     }
-    body .title .nextui-accordion-item__title {
-        color: #FF0000 !important;
-      }
 }

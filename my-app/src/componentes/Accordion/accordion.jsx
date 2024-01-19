@@ -24,21 +24,21 @@ export default function MyAccordion() {
         <AccordionItem
           key="1"
           aria-label="¿Quiénes Somos?"
-          title={<span style={{ color: "white" }}>Accordion 1</span>}
+          title={<span style={{ color: "white" }}>¿Quiénes Somos?</span>}
         >
           {PrimerItems}
         </AccordionItem>
         <AccordionItem
           key="2"
           aria-label="¿Por Qué Elegirnos?"
-          title={<span style={{ color: "white" }}>Accordion 1</span>}
+          title={<span style={{ color: "white" }}>¿Por Qué Elegirnos?</span>}
         >
           {SegItems}
         </AccordionItem>
         <AccordionItem
           key="3"
           aria-label="Equipo de Desarrollo"
-          title={<span style={{ color: "white" }}>Accordion 1</span>}
+          title={<span style={{ color: "white" }}>Nuestro Equipo</span>}
         >
           <Avatar />
         </AccordionItem>
