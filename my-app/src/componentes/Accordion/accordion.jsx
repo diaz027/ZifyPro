@@ -11,11 +11,11 @@ export default function MyAccordion() {
      el desarrollo web y diseño personalizado, ofreciendo soluciones innovadoras que se destacan en la creación de páginas web únicas y
      funcionales.`;
 
-  const SegItems = `En ZifyPro, destacamos como expertos en desarrollo Full Stack y diseño 
-  personalizado. Nos enorgullece no solo construir páginas web, sino 
-  también crear experiencias únicas que cumplen con tus objetivos. 
-  Colaborar con nosotros significa beneficiarte de soluciones digitales 
-  que van más allá de las expectativas, fusionando tecnología y 
+  const SegItems = `En ZifyPro, destacamos como expertos en desarrollo Full Stack y diseño
+  personalizado. Nos enorgullece no solo construir páginas web, sino
+  también crear experiencias únicas que cumplen con tus objetivos.
+  Colaborar con nosotros significa beneficiarte de soluciones digitales
+  que van más allá de las expectativas, fusionando tecnología y
   creatividad para obtener resultados tangibles.`;
 
   return (
@@ -24,24 +24,21 @@ export default function MyAccordion() {
         <AccordionItem
           key="1"
           aria-label="¿Quiénes Somos?"
-          title="¿Quiénes Somos?"
-          className="title"
+          title={<span style={{ color: "white" }}>Accordion 1</span>}
         >
           {PrimerItems}
         </AccordionItem>
         <AccordionItem
           key="2"
           aria-label="¿Por Qué Elegirnos?"
-          title="¿Por Qué Elegirnos?"
-          className="title"
+          title={<span style={{ color: "white" }}>Accordion 1</span>}
         >
           {SegItems}
         </AccordionItem>
         <AccordionItem
           key="3"
           aria-label="Equipo de Desarrollo"
-          title="Equipo de Desarrollo"
-          className="title"
+          title={<span style={{ color: "white" }}>Accordion 1</span>}
         >
           <Avatar />
         </AccordionItem>
