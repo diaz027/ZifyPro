@@ -35,7 +35,11 @@ const Vorttex = () => {
           fáciles, brindando flexibilidad al equipo
         </p>
       </div>
-      <Image src={images[currentImageIndex]} alt="[currentImageIndex]" className="img3" />
+      <Image
+        src={images[currentImageIndex]}
+        alt="[currentImageIndex]"
+        className="img3"
+      />
       <div className="video-container">
         <iframe
           src="https://www.youtube.com/embed/Z729kJrw1aA"

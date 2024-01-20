@@ -1,30 +1,35 @@
+/* navBar.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-.nabDesk{
-    font-family: 'Pacifico', cursive;
-    
-    color: black;
-    top: 0px;
-    background-color: rgb(233, 163, 2); ;
+
+.nabDesk {
+  font-family: 'Pacifico', cursive;
+  color: black;
+  top: 0px;
+  background-color: rgb(233, 163, 2);
 }
-.nabDesk h2{
-    font-size: 2em;
-    transition: all .3s;
+
+.nabDesk h2 {
+  font-size: 2em;
+  transition: all .3s;
 }
-.nabDesk h2:hover{
+
+.nabDesk h2:hover {
   transform: scale(1.1) translateX(-5px) translateY(-5px);
 }
 
-.nabDesk #trabajemos:hover{
-    color: rgb(22, 205, 190);
+.nabDesk #trabajemos:hover {
+  color: rgb(22, 205, 190);
 }
 
-.nabDesk #nosotros:hover{
-    color: rgb(186, 204, 31);
-}
-.nabDesk #proyectos:hover{
-    color: rgb(77, 135, 243);
-}
-.nabDesk #inicio:hover{
-    color: rgb(222, 71, 25);
+.nabDesk #nosotros:hover {
+  color: rgb(186, 204, 31);
 }
 
+.nabDesk #proyectos:hover {
+  color: rgb(77, 135, 243);
+}
+
+.nabDesk #inicio:hover {
+  color: rgb(222, 71, 25);
+}

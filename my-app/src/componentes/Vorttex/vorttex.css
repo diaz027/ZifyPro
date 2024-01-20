@@ -17,7 +17,7 @@
       margin-top: 30px;
       overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
     word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
-    max-width: 500px;
+    max-width: 100px;
     margin-right: 650px;
     }
   
