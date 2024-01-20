@@ -1,10 +1,14 @@
 @media screen and (min-width: 768px) {
     .conten{
         color:white;
-        margin-top: 3px;
+        margin-top: -430px;
         overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
         word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
         max-width: 500px;
         margin-left: 66%;
+    }
+    .logo{
+        height: 30%;
+        width: 40%;
     }
 }

@@ -19,30 +19,47 @@ export default function MyAccordion() {
   creatividad para obtener resultados tangibles.`;
 
   return (
-    <div className="conten">
-      <Accordion>
-        <AccordionItem
-          key="1"
-          aria-label="¿Quiénes Somos?"
-          title={<span style={{ color: "white" }}>¿Quiénes Somos?</span>}
-        >
-          {PrimerItems}
-        </AccordionItem>
-        <AccordionItem
-          key="2"
-          aria-label="¿Por Qué Elegirnos?"
-          title={<span style={{ color: "white" }}>¿Por Qué Elegirnos?</span>}
-        >
-          {SegItems}
-        </AccordionItem>
-        <AccordionItem
-          key="3"
-          aria-label="Equipo de Desarrollo"
-          title={<span style={{ color: "white" }}>Nuestro Equipo</span>}
-        >
-          <Avatar />
-        </AccordionItem>
-      </Accordion>
+    <div>
+      <div className="logo">
+        <img src="/logo.png" />
+      </div>
+      <div className="conten">
+        <Accordion>
+          <AccordionItem
+            key="1"
+            aria-label="¿Quiénes Somos?"
+            title={
+              <span style={{ color: "white", fontSize: "1.5em" }}>
+                ¿Quiénes Somos?
+              </span>
+            }
+          >
+            {PrimerItems}
+          </AccordionItem>
+          <AccordionItem
+            key="2"
+            aria-label="¿Por Qué Elegirnos?"
+            title={
+              <span style={{ color: "white", fontSize: "1.5em" }}>
+                ¿Por Qué Elegirnos?
+              </span>
+            }
+          >
+            {SegItems}
+          </AccordionItem>
+          <AccordionItem
+            key="3"
+            aria-label="Equipo de Desarrollo"
+            title={
+              <span style={{ color: "white", fontSize: "1.5em" }}>
+                Nuestro Equipo
+              </span>
+            }
+          >
+            <Avatar />
+          </AccordionItem>
+        </Accordion>
+      </div>
     </div>
   );
 }
