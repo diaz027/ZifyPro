@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .nabDesk{
     font-family: 'Pacifico', cursive;
     width: 100vw;
@@ -15,16 +14,21 @@
 }
 
 .nabDesk #trabajemos:hover{
-    color: rgb(22, 205, 190);
-}
+    color:  tomato; animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
+
+
 
 .nabDesk #nosotros:hover{
-    color: rgb(186, 204, 31);
-}
+    color:tomato; ;
+    animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
+
+
 .nabDesk #proyectos:hover{
-    color: rgb(77, 135, 243);
-}
+    color:  tomato; animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
+
+
 .nabDesk #inicio:hover{
-    color: rgb(222, 71, 25);
-}
+    color:  tomato; 
+    animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
+
 

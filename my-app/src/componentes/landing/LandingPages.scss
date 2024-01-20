@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@500&display=swap');
 body{
   overflow-y: scroll;
   overflow-x: hidden;
@@ -23,6 +22,7 @@ margin: 0 0 0;
   left: 5vw;
   color: aqua;
   animation: salto-voltereta .5s ease-out forwards;
+  opacity: 1;
 }
 @keyframes salto-voltereta {
   0% {
@@ -178,7 +178,6 @@ p {
     top: -2vh;
     width: 40vh;
     left: 5vw;
-    color: aqua;
     animation: salto-voltereta .5s ease-out forwards;
   }
 
