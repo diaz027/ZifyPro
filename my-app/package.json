@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "@react-three/fiber": "^8.15.14",
     "framer-motion": "^10.18.0",
     "jquery": "^3.7.1",
     "next": "14.0.4",
@@ -19,7 +20,8 @@
     "react-scroll": "^1.9.0",
     "sass": "^1.70.0",
     "three": "^0.160.0",
-    "three-stdlib": "^2.29.4"
+    "three-stdlib": "^2.29.4",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

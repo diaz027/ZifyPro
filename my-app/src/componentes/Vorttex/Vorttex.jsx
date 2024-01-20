@@ -10,18 +10,12 @@ import vorttex4 from "./vorttex4.jpg";
 const images = [vorttex00, vorttex1, vorttex2, vorttex3, vorttex4];
 
 const Vorttex = () => {
-
-
-
-
   return (
     <section className="proyecto" id="proyecto">
       <div className="tittleTrabajos">
-         <h1> Trabajos</h1>
+        <h1> Trabajos</h1>
       </div>
-
-
-      </section>
+    </section>
   );
 };
 export default Vorttex;

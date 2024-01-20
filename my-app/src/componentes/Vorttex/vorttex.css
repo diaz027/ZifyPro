@@ -1,26 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+@media screen and (min-width: 768px) {
+    .container4{
+      position: relative;
+      margin-top: 60px;
+    }
+  
+    .title3{
+      z-index: 53;
+      position: relative;
+      font-size: 2em;
+      margin-right: 650px;
+      margin-top: 250px;
+    }
+  
+    .text3{
+      margin-top: 30px;
+      overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
+    word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
+    max-width: 100px;
+    margin-right: 650px;
+    }
+  
+    .img3 {
+      z-index: 53;
+      width: 450px;
+      height: 300px;
+      margin-right: -560px;
+      margin-top: -475px;
+    }
+  
+    .conteinerT3{
+      z-index: 53;
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr); /* Create 4 equal-width columns */
+      grid-gap: 30px;
+      margin-left: -745px;
+  }
+  .video-container {
+    z-index: 53;
+    margin-right: -575px;
+    margin-top: 70px;
+  }
+  }
+  
+  /* Estilos para pantallas pequeñas (hasta 767px) */
+  @media screen and (max-width: 767px) {
+      .container4 {
+          position: relative;
+          margin-top: 30px; /* Ajusta el margen según sea necesario */
+        }
 
-.proyecto{
-  position: relative;
-  top: 17.5vh;
-  height: 140vh;
-  background-color: aqua;
-  position: relative;
-  z-index: 44;
-}
-.tittleTrabajos{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  background-color: rgb(77, 72, 66);
-  width: 100vw;
-  height: 35vh;
-  background-image: linear-gradient(179deg,transparent 0%,rgb(16, 58, 58) 0% 85%,transparent 85%);
-}
-.tittleTrabajos h1{
-  font-family: 'Staatliches', sans-serif;
-  font-size: 18vh;
-  color: white;
-}
+        .title3{
+          z-index: 53;
+          position: relative;
+          font-size: 2em;
+          margin-top: 120px;
+        }
+
+        .text3{
+          margin-top: 30px;
+          overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
+        word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
+        max-width: 500px;
+        }
+
+        .img3 {
+          position: relative;
+          z-index: 53;
+          width: 450px;
+          height: 300px;
+          margin-top: 50px
+        }
+
+        .conteinerT3{
+          position: relative;
+          z-index: 53;
+          margin-top: 15px;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
+          grid-gap: 30px;
+          margin-left: 5px;
+      }
+
+      .video-container{
+        position: relative;
+          z-index: 53;
+        width: 80vw;
+        height: 30vh;
+        margin-top: 20px;
+      }
+  }
