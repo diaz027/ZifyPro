@@ -68,10 +68,10 @@ const Vorttex = () => {
           a gran escala<br/> con diferentes implementaciones:
 
           <ol>
-            <li>autenticacion de terceros</li>
-            <li>panel de administrador</li>
-            <li>gestion de stock</li>
-            <li>DB/API propia </li>
+            <li> -autenticacion de terceros</li>
+            <li> -panel de administrador</li>
+            <li> -gestion de stock</li>
+            <li> -DB/API propia </li>
           </ol>
       </div>
       </section>
