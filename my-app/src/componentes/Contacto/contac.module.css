@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+  .contac {
+    background-image: url('~/public/fondo-abstracto-azul-degradado-estudio-azul-oscuro-liso-vineta-negra.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-top: 300px;
+  }
+
+  .emailContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 470px;
+    margin-left: 50px;
+    color: white;
+  }
+
+  .textFind {
+    font-size: 2.5em;
+    margin-right: 66%;
+  }
+
+  .inputContainer {
+    position: relative;
+    margin-left: -30vw;
+    width: 400px;
+    height: 140px;
+  background: rgba(6, 6, 6, 0.35);
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+}

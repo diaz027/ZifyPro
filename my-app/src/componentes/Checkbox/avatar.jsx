@@ -7,7 +7,7 @@ export default function Avatar() {
       <CustomUserCard
         user={{
           name: "Damian ",
-          avatar: "./dami.jpeg",
+          avatar: "/dami.jpeg",
           username: "Diaz",
           url: "https://www.instagram.com/damicitoo/",
           role: "Full Stack Developer",
@@ -18,7 +18,7 @@ export default function Avatar() {
       <CustomUserCard
         user={{
           name: "Jhonatan",
-          avatar: "./jona.png",
+          avatar: "/jona.png",
           username: "Gabriel",
           url: "https://www.instagram.com/vestigio_sincero/",
           role: "Full Stack Developer",

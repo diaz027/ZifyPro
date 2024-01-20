@@ -5,30 +5,27 @@
     top: 0px;
     background-color: rgb(233, 163, 2); ;
 }
-.nabDesk h2{
-    font-size: 2em;
-    transition: all .3s;
+
+.nabDesk h2 {
+  font-size: 2em;
+  transition: all .3s;
 }
-.nabDesk h2:hover{
+
+.nabDesk h2:hover {
   transform: scale(1.1) translateX(-5px) translateY(-5px);
 }
 
 .nabDesk #trabajemos:hover{
-    color:  tomato; animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
-
-
+    color: rgb(22, 205, 190);
+}
 
 .nabDesk #nosotros:hover{
-    color:tomato; ;
-    animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
-
-
+    color: rgb(186, 204, 31);
+}
 .nabDesk #proyectos:hover{
-    color:  tomato; animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
-
-
+    color: rgb(77, 135, 243);
+}
 .nabDesk #inicio:hover{
-    color:  tomato; 
-    animation:jello-horizontal .9s linear both} @keyframes jello-horizontal{0%{transform:scale3d(1,1,1)}30%{transform:scale3d(1.25,.75,1)}40%{transform:scale3d(.75,1.25,1)}50%{transform:scale3d(1.15,.85,1)}65%{transform:scale3d(.95,1.05,1)}75%{transform:scale3d(1.05,.95,1)}100%{transform:scale3d(1,1,1)}}
-
+    color: rgb(222, 71, 25);
+}
 

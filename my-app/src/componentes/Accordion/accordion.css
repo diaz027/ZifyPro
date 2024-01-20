@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+    .conten{
+        position: relative;
+        z-index: 53;
+        color:white;
+        margin-top: -230px;
+        overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
+        word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
+        max-width: 500px;
+        margin-left: 66%;
+    }
+}
