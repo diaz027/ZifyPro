@@ -1,9 +1,11 @@
 @media screen and (min-width: 768px) { 
     .about {
-      background-image: url('../../../public/istockphoto-1226866571-1024x1024.jpg');
+      background-image: url('../../../public/3145241.jpg');
       background-size: cover;
       background-repeat: no-repeat; 
       height: 100vh;
-      
+      margin-top: 0;
     }
+  
+    
 }
