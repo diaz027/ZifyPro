@@ -4,7 +4,9 @@ import NavBarDesktop from "../NavBarDestop/NavBarDestop";
 import NavBarMobile from "../NavBar/NavBarMobile";
 
 export default function NavBB() {
-  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 768);
+  const [isDesktop, setIsDesktop] = useState(
+    typeof window !== "undefined" ? window.innerWidth > 768 : false
+  );
 
   const handleResize = () => {
     setIsDesktop(window.innerWidth > 768);
