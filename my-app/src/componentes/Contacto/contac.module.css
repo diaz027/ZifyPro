@@ -10,23 +10,71 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 470px;
-    margin-left: 50px;
+    height:100vh;
+    margin-left: 60px;
     color: white;
   }
 
   .textFind {
     font-size: 2.5em;
-    margin-right: 66%;
+    margin-right: 56%;
   }
 
   .inputContainer {
     position: relative;
-    margin-left: -30vw;
+    margin-left: -5vw;
     width: 400px;
     height: 140px;
   background: rgba(6, 6, 6, 0.35);
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
+
+  .boton{
+    left: -11vh;
+    top: 2vh;
+    width: 62vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contac {
+    background-image: url('~/public/fondo-abstracto-azul-degradado-estudio-azul-oscuro-liso-vineta-negra.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+  
+  .emailContainer {
+    margin-top: 35vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height:105vh; /* Aproximadamente equivalente a 470px en una pantalla de 960px de altura */
+    margin-left: 5.21vh; /* Aproximadamente equivalente a 50px en una pantalla de 960px de altura */
+    color: white;
+  }
+  
+  .textFind {
+    font-size: 2.5em;
+    margin-top: -60vh;
+    margin-right: -15vh;
+  }
+  
+  .inputContainer {
+    top: 2vh; /* Ajusta este valor según sea necesario */
+    position: relative;
+    left: -9vw;
+    width: 41.67vh; /* Aproximadamente equivalente a 400px en una pantalla de 960px de altura */
+    height: 16vh; /* Aproximadamente equivalente a 140px en una pantalla de 960px de altura */
+    background: rgba(6, 6, 6, 0.35);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+  }
+  .boton{
+  position: relative;
+  left: 12vh; 
+  top: 7vh;
+  }
+  
 }

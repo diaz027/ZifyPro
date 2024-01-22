@@ -17,12 +17,22 @@ function Email() {
             <div className={style.inputContainer}>
               {variants.map((variant) => (
                 <div key={variant}>
-                  <Input type="email" variant={variant} label="Email" />
-                  <Input name="message" variant={variant} label="Message" />
+                  <Input
+                    type="email"
+                    variant={variant}
+                    label="Email"
+                    color="white"
+                  />
+                  <Input
+                    name="message"
+                    variant={variant}
+                    label="Message"
+                    color="white"
+                  />
                 </div>
               ))}
             </div>
-            <Button type="submit" color="primary">
+            <Button type="submit" color="primary" className={style.boton}>
               Send
             </Button>
           </form>
