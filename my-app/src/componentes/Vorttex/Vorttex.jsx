@@ -57,11 +57,11 @@ const Vorttex = () => {
   return (
     <section className="proyecto" id="proyecto">
       <div className="tittleTrabajos">
-        <h1 ref={titleRef}> Trabajos</h1> {/* Usar la referencia aquí */}
+        <h1  className="tituloDuro"ref={titleRef}> Trabajos</h1> {/* Usar la referencia aquí */}
       </div>
       <img id="Image" src="/img/vorttex00.jpg" alt="" />
       <div>
-        <h1 className="pepe">E-comerce</h1>
+       
       </div>
       <div className="pepe2">
         dedicada a la venta de keys online, vortex gaming

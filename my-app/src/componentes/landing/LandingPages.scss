@@ -1,14 +1,17 @@
-
+html{
+  background-color: black;
+}
 
 .videoH{
-  overflow-y: hidden;
-  position: absolute;
+overflow-x: hidden;
   top: 0;
 width: 100vw;
 margin: 0 0 0;
   z-index: 0;
 }
 .layout {
+  width: 100vw;
+  overflow-x: visible;
   position: relative;
   z-index: 2;
 }
@@ -39,7 +42,6 @@ margin: 0 0 0;
   overflow: hidden;
   color: rgb(240, 231, 224);
   font-size: 2em;
-  font-family: 'Khand', sans-serif;
   animation: curtain .5s forwards;
   transform-origin: top;
 }
@@ -82,7 +84,7 @@ $total-lines: 6;
 */
 $left-offset: 29px;
 $clip-height: 5vw;
-$line-height: $clip-height - 1vw;
+$line-height: $clip-height - 0vw;
 
 
 /*
@@ -107,13 +109,13 @@ $line-height: $clip-height - 1vw;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-size: 5vw;
   font-weight: 900;
-  letter-spacing: -2px;
+  letter-spacing: 5px;
   text-transform: uppercase;
   // Sort out nasty text fuzz
   transform: rotateZ(3deg) translate3d(0, 0, 0);
   -webkit-font-smoothing: antialiased;
   -webkit-font-kerning: normal;
-  -webkit-text-size-adjust: 40vw;
+  -webkit-text-size-adjust: 42vw;
 }
 
 
@@ -170,7 +172,15 @@ p {
 @media only screen and (max-width: 600px) {
 
 
+  .text{
+    left: -3vw;
+    width: 90vw;
+  }
+
+
   .fixI{
+    overflow-x: hidden;
+
     position: absolute;
     top: -2vh;
     width: 40vh;
@@ -179,8 +189,8 @@ p {
   }
 
   .videoH{
-    overflow-y: hidden;
     overflow-x: hidden;
+
     position: absolute;
     top: 35vh;
     left: -20.5vw;
@@ -190,9 +200,12 @@ p {
   }
 
   .Words{
-   
+    overflow-x: hidden;
+
+    letter-spacing: 5px;
+
     transform: scale(2.1) rotateZ(3deg);
-    left: 28vw;
+    left: 23vw;
     top: 35vh;
     font-size: 20px;
   }
@@ -205,4 +218,5 @@ p {
       }
     }
   }
+
 }

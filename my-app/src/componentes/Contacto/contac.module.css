@@ -16,11 +16,13 @@
   }
 
   .textFind {
+    font-family: 'Teko', sans-serif;
     font-size: 2.5em;
     margin-right: 56%;
   }
 
   .inputContainer {
+    font-family: 'Teko', sans-serif;
     position: relative;
     margin-left: -5vw;
     width: 400px;
@@ -31,6 +33,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
 
   .boton{
+    font-family: 'Teko', sans-serif;
     left: -11vh;
     top: 2vh;
     width: 62vh;
@@ -45,6 +48,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .emailContainer {
+    font-family: 'Teko', sans-serif;
     margin-top: 35vh;
     display: flex;
     justify-content: flex-end;
@@ -55,12 +59,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .textFind {
+    font-family: 'Teko', sans-serif;
     font-size: 2.5em;
     margin-top: -60vh;
     margin-right: -15vh;
   }
   
   .inputContainer {
+    font-family: 'Teko', sans-serif;
     top: 2vh; /* Ajusta este valor según sea necesario */
     position: relative;
     left: -9vw;
@@ -72,9 +78,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     
   }
   .boton{
+    font-family: 'Teko', sans-serif;
   position: relative;
   left: 12vh; 
   top: 7vh;
   }
   
 }
+

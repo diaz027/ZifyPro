@@ -9,12 +9,16 @@
         word-wrap: break-word; /* Otra propiedad para compatibilidad con navegadores más antiguos */
         max-width: 500px;
         margin-left: 60%;
+        font-family: 'Teko', sans-serif;
     }
 }
 
 @media screen and (max-width: 767px) {
     .conten{
+        font-family: 'Teko', sans-serif;
         position: relative;
+        font-size: 22px;
+        line-height: 90%;
         z-index: 53;
         color:white;
         overflow-wrap: break-word; /* Permite que las palabras se rompan para ajustarse al ancho del contenedor */
@@ -24,3 +28,4 @@
         top: 10vh
     }
 }
+
