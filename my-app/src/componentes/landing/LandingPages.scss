@@ -173,7 +173,10 @@ p {
 
 
   .text{
-    left: -3vw;
+    position: relative;
+    margin: 0;
+    margin-left: 5vw;
+    margin-top: 6vh;
     width: 90vw;
   }
 
