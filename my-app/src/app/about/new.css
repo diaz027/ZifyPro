@@ -11,6 +11,8 @@
 }
 @media screen and (max-width: 767px) { 
   .about {
+    overflow-x: hidden;
+    width: 100vw;
     background-image: url('../../../public/3145241.jpg');
     background-size: cover;
     background-repeat: no-repeat; 

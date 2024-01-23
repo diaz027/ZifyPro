@@ -1,5 +1,6 @@
 @media screen and (min-width: 768px) {
   .contac {
+    width: 120vw;
     background-image: url('~/public/fondo-abstracto-azul-degradado-estudio-azul-oscuro-liso-vineta-negra.jpg');
     background-size: cover;
     background-repeat: no-repeat; 
@@ -11,6 +12,7 @@
     justify-content: flex-end;
     align-items: center;
     height:100vh;
+    width: 120vw;
     margin-left: 60px;
     color: white;
   }
@@ -66,11 +68,12 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   }
   
   .inputContainer {
+    position: absolute;
     font-family: 'Teko', sans-serif;
     top: 2vh; /* Ajusta este valor según sea necesario */
     position: relative;
-    left: -9vw;
-    width: 41.67vh; /* Aproximadamente equivalente a 400px en una pantalla de 960px de altura */
+    left: -20vw;
+    width: 67vw; /* Aproximadamente equivalente a 400px en una pantalla de 960px de altura */
     height: 16vh; /* Aproximadamente equivalente a 140px en una pantalla de 960px de altura */
     background: rgba(6, 6, 6, 0.35);
     border-radius: 10px;
@@ -80,9 +83,13 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   .boton{
     font-family: 'Teko', sans-serif;
   position: relative;
-  left: 12vh; 
+  left: 0vh; 
   top: 7vh;
   }
   
 }
 
+.contac_container{
+  background-image: url('~/public/fondo-abstracto-azul-degradado-estudio-azul-oscuro-liso-vineta-negra.jpg');
+
+}

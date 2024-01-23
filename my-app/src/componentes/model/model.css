@@ -21,7 +21,7 @@
   }
   
   .canvas {
-    position: relative;
+    position: absolute;
     z-index: 0;
     margin-top: -23vh;
     margin-left: -30vw;

@@ -7,7 +7,7 @@ function Email() {
   const variants = ["underlined"];
 
   return (
-    <div id="contacto">
+    <div className={style.contac_container} id="contacto">
       <div className={style.contac}>
         <div className={style.emailContainer}>
           <div className={style.textFind}>
