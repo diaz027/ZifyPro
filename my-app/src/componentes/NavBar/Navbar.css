@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+    .logo10{
+        position: relative;
+        z-index: 3;
+        bottom: -10vh;
+    }
+}
