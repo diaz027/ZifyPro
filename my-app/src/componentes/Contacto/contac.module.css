@@ -26,7 +26,7 @@
   .inputContainer {
     font-family: 'Teko', sans-serif;
     position: relative;
-    margin-left: -5vw;
+    margin-left: -35vw;
     width: 400px;
     height: 140px;
   background: rgba(6, 6, 6, 0.35);
@@ -36,7 +36,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   .boton{
     font-family: 'Teko', sans-serif;
-    left: -11vh;
+    left: -74.5vh;
     top: 2vh;
     width: 62vh;
   }

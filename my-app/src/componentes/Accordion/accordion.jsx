@@ -30,7 +30,7 @@ export default function MyAccordion() {
             </span>
           }
         >
-          {PrimerItems}
+          <div className="text5">{PrimerItems}</div>
         </AccordionItem>
         <AccordionItem
           key="2"
@@ -41,7 +41,7 @@ export default function MyAccordion() {
             </span>
           }
         >
-          {SegItems}
+          <div className="text5">{SegItems}</div>
         </AccordionItem>
         <AccordionItem
           key="3"
