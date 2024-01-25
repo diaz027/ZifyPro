@@ -1,10 +1,18 @@
 "use strict";
-import React from "react";
+import React, { useEffect } from "react";
 import { Accordion, AccordionItem } from "@nextui-org/react";
 import "./accordion.css";
 import Avatar from "../Checkbox/avatar";
+import useStore from "@/zustand";
 
 export default function MyAccordion() {
+  const addImage = useStore((state) => state.addImage);
+
+  useEffect(() => {
+    addImage("/dami.jpeg");
+    addImage("/jona.png");
+  }, []);
+
   const PrimerItems = `En ZifyPro, hacemos de tus ideas una realidad. Somos un equipo
      apasionado de desarrolladores Full Stack dedicados a transformar
      conceptos en experiencias digitales impactantes. Nos especializamos en
