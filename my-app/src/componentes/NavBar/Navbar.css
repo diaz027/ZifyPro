@@ -1,7 +1,8 @@
-@media screen and (min-width: 768px) {
-    .logo10{
-        position: relative;
-        z-index: 3;
-        bottom: -10vh;
-    }
+.logots{
+width: 60px;
+height: 60px;
+position: absolute;
+opacity: 4;
+top: 0px;
+left: 80vw;
 }

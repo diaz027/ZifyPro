@@ -46,6 +46,7 @@
   
   /* Estilos para pantallas pequeñas (hasta 767px) */
   @media screen and (max-width: 767px) {
+
       .container4 {
           position: relative;
           margin-top: 30px; /* Ajusta el margen según sea necesario */
@@ -93,4 +94,5 @@ h1{
         height: 30vh;
         margin-top: 20px;
       }
+      
   }

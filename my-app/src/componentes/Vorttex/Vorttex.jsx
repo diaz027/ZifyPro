@@ -1,6 +1,9 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import "./vorttex.scss";
+import { Button } from "@nextui-org/react";
+import Link from "next/link";
+
 const Vorttex = () => {
   const titleRef = useRef(); // Crear la referencia
 
@@ -57,12 +60,14 @@ const Vorttex = () => {
   return (
     <section className="proyecto" id="proyecto">
       <div className="tittleTrabajos">
-        <h1  className="tituloDuro"ref={titleRef}> Trabajos</h1> {/* Usar la referencia aquí */}
+        <h1 className="tituloDuro" ref={titleRef}>
+          {" "}
+          Trabajos
+        </h1>{" "}
+        {/* Usar la referencia aquí */}
       </div>
       <img id="Image" src="/img/vorttex00.jpg" alt="" />
-      <div>
-       
-      </div>
+      <div></div>
       <div className="pepe2">
         dedicada a la venta de keys online, vortex gaming
         <br /> es una plataforma profecional a gran escala
@@ -73,6 +78,11 @@ const Vorttex = () => {
           <li> -gestion de stock</li>
           <li> -DB/API propia </li>
         </ol>
+      <Link href="https://vorttex-gaming-topabli2-topablis-projects.vercel.app/">
+        <Button className="vortexPag" type="submit" color="primary">
+          ir al sitio web
+        </Button>
+      </Link>
       </div>
     </section>
   );
