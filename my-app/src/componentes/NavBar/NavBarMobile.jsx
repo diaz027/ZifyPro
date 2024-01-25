@@ -30,12 +30,12 @@ export default function NavBarMobile() {
 
   return (
     <Navbar isBordered isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+      <img className="logots" src="/NavBarCelu.png" alt="logo" />
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           onClick={toggleMenu}
         />
-        <img src="/NavBarCelu.jpeg" alt="Logo" className="logo10" />
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex pr-3" justify="center">

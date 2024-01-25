@@ -78,12 +78,12 @@ const Vorttex = () => {
           <li> -gestion de stock</li>
           <li> -DB/API propia </li>
         </ol>
-      </div>
       <Link href="https://vorttex-gaming-topabli2-topablis-projects.vercel.app/">
-        <Button type="submit" color="primary">
+        <Button className="vortexPag" type="submit" color="primary">
           ir al sitio web
         </Button>
       </Link>
+      </div>
     </section>
   );
 };

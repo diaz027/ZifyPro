@@ -76,6 +76,12 @@ font-family: 'Teko', sans-serif;
 
 
 @media (max-width: 767px) {
+
+  .vortexPag{
+    position: relative;
+    top: -8vh;
+    left: 60vw;
+  }
 .proyecto{
   position: relative;
   top: 14.5vh;
@@ -106,7 +112,7 @@ font-family: 'Teko', sans-serif;
 img{
   position: relative;
   opacity: 5%;
-  top: 40vh;
+  top: 20vh;
   transition: all 0.5s;
 
 }
@@ -127,9 +133,8 @@ img{
 }
 #Image{
   position: absolute;
-  top: 123vh;
-  left: 2vw;
-  width: 99vw;
+  top: 125vh;
+ 
 }
 .pepe{
   position: absolute;
