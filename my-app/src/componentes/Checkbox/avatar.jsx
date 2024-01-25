@@ -1,21 +1,14 @@
 import React from "react";
 import { CustomUserCard } from "./CustomCheckbox";
-import useStore from "@/zustand";
 
 export default function Avatar() {
-  const images = useStore((state) => state.images);
-
-  if (images.length === 0) {
-    console.log("sin chambaaaa");
-    return null;
-  }
-
   return (
     <div className="flex flex-col gap-1 w-full">
       <CustomUserCard
         user={{
           name: "Damian",
-          avatar: "/dami.jpeg",
+          avatar:
+            "https://res.cloudinary.com/divxrmzge/image/upload/v1706212705/dami_entott.png",
           username: "Diaz",
           url: "https://www.instagram.com/damicitoo/",
           role: "Full Stack Developer",
