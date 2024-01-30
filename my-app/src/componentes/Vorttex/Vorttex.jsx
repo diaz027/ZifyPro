@@ -69,20 +69,20 @@ const Vorttex = () => {
       <img id="Image" src="/img/vorttex00.jpg" alt="" />
       <div></div>
       <div className="pepe2">
-        dedicada a la venta de keys online, vortex gaming
-        <br /> es una plataforma profecional a gran escala
+        dedicada a la venta de keys online, Vortex Gaming
+        <br /> es una plataforma profesional a gran escala
         <br /> con diferentes implementaciones:
         <ol>
-          <li> -autenticacion de terceros</li>
+          <li> -autenticación de terceros</li>
           <li> -panel de administrador</li>
-          <li> -gestion de stock</li>
+          <li> -gestión de stock</li>
           <li> -DB/API propia </li>
         </ol>
-      <Link href="https://vorttex-gaming-topabli2-topablis-projects.vercel.app/">
-        <Button className="vortexPag" type="submit" color="primary">
-          ir al sitio web
-        </Button>
-      </Link>
+        <Link href="https://vorttex-gaming-topabli2-topablis-projects.vercel.app/">
+          <Button className="vortexPag" type="submit" color="primary">
+            ir al sitio web
+          </Button>
+        </Link>
       </div>
     </section>
   );
